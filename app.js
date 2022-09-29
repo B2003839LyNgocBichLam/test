@@ -3,7 +3,7 @@ const cors = require("cors");
 
 const app = express();
 
-const contactsRouter = require("./app/routes/contact.route");
+const contactsRouter = require("./app/routes/contact.routes");
 
 app.use(cors());
 app.use(express.json());
